@@ -1,0 +1,46 @@
+.container {
+    width: fit-content;
+    margin: 400px auto; /* автоматические отступы слева и справа для выравнивания по центру */
+    text-align: center;
+    transform: scale(3.5);/* Выравниваем дочерние элементы по центру */
+}
+
+.heart {
+    position: relative;
+    width: 50px;
+    height: 75px;
+    border: 1px solid black;
+    border-radius: 100px 100px 0 0;
+    transform: rotate(45deg);
+    background-color: IndianRed;
+    margin-left: 50px;
+}
+
+.heart1 {
+    position: absolute;
+    width: 50px;
+    height: 75px;
+    border: 1px solid black;
+    border-radius: 100px 100px 0 0;
+    transform: rotate(315deg);
+    background-color: IndianRed;
+    margin-left: 32px;
+    margin-top: -77px;
+}
+
+.caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+
+.message {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
